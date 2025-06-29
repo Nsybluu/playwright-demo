@@ -1,1 +1,3 @@
 # playwright-demo
+# Automation
+# Manual
