@@ -1,11 +1,11 @@
 import {test,expect} from '@playwright/test';
 
 // ฟังก์ชันเขียน Test Case
-test('basic test', async ({page}) => {
+test('Loing Test', async ({page}) => {
     // 1. เปิดหน้าเว็บ
     await page.goto('https://www.saucedemo.com/');
     // 2. 
-    await page.getByPlaceholder("Username").fill("problem_user") 
+    await page.getByPlaceholder("Username").fill("standard_user");
     // 3.
     await page.locator('.form_input[placeholder="Password"]').fill("secret_sauce");
     // 4.
